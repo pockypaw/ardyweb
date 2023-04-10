@@ -1,0 +1,161 @@
+/* @font-face {
+    font-family: "Bitstream Vera Serif Bold";
+    src: url("https://mdn.github.io/css-examples/web-fonts/VeraSeBd.ttf");
+  } */
+body {
+  margin: 0px;
+}
+h1 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-family: "Sofia", sans-serif;
+  font-size: 50px;
+}
+h2 {
+  margin: 0px;
+  font-size: 25px;
+  text-align: center;
+}
+p {
+  margin-top: 0px;
+}
+
+.wrap {
+    color: white;
+}
+
+.red {
+  background-color: red;
+  width: 200px;
+  height: 200px;
+  margin-left: 0px;
+}
+
+.blue {
+  width: 200px;
+  height: 200px;
+  background-color: blue;
+}
+
+.yellow {
+  background-color: yellow;
+  width: 200px;
+  height: 200px;
+}
+
+.top-container {
+  background-color: #393646;
+  padding-top: 50px;
+  position: relative;
+  /* height: 100%; */
+  height: 93vh;
+}
+
+.middle-container {
+  background-color: #ffffff;
+  padding-top: 50px;
+  position: relative;
+  /* height: 100%; */
+}
+
+.top-cloud {
+  position: absolute;
+  margin-left: 900px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  margin-left: 200px;
+}
+
+.mountain {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 230px;
+}
+
+.profile-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+  border-radius: 50%;
+  width: 25%;
+}
+
+.profile-row {
+  width: 50%;
+  margin: 10px auto 100px auto;
+  text-align: justify;
+  line-height: 2;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 10px auto 100px auto;
+  text-align: justify;
+  line-height: 2;
+}
+
+.code-img {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+  margin-top: 10px;
+}
+
+.chili-img {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+  margin-top: 10px;
+}
+
+.bottom-container {
+  padding: 10px;
+  text-align: center;
+  background: #F4EEE0;
+  margin-top: 20px;
+}
+
+
+/* Style inputs with type="text", select elements and textareas */
+input[type="text"],
+input[type="email"],
+select,
+textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */
+  border: 1px solid #a2a2a2; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type="submit"] {
+  background-color: #6D5D6E;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type="submit"]:hover {
+  background-color: #6d5d6e96;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+  background-color: #ffffff;
+  width: 50%;
+  margin: 10px auto 100px auto;
+}
