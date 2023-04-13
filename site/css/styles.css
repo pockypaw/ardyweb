@@ -74,9 +74,8 @@ p {
   font-family: "Ubuntu";
   font-size: 1rem;
   text-align: center;
-  color:white;
+  color: white;
 }
-
 
 .img-press {
   height: 50px;
@@ -93,7 +92,48 @@ p {
   margin-right: 0;
 }
 
-em{
+em {
   display: block;
 }
 
+#pricing {
+  margin: 4% 3%;
+  padding: 3% 0%;
+  text-align: center;
+}
+
+.card-pricing {
+  margin: 4% 0;
+}
+
+.border-pink {
+  border-color: #ff4c68;
+  border-radius: 10%;
+  border-width: 5px;
+}
+
+.card-header-pink {
+  background-color: #ff4c68;
+  border-color: #ff4c68;
+  color: aliceblue;
+  font-family: "Ubuntu";
+  margin: 0 auto;
+}
+
+.hover-pink:hover {
+  border-color: #ff4c68;
+  background-color: rgb(255, 40, 76);
+}
+
+#cta {
+  text-align: center;
+  margin: 2% auto;
+}
+
+.footer{
+  background-color: #ff4c68;
+  text-align: center;
+  color: white;
+  margin: auto 0;
+  height: 5%;
+}
