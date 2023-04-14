@@ -171,4 +171,7 @@ em {
     padding-bottom: 85%;
     margin: 0 auto;
   }
+  .txt-center {
+    text-align: center;
+  }
 }
