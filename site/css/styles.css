@@ -157,8 +157,7 @@ em {
     transform: rotate(0deg);
     width: 40%;
     /* position: absolute; */
-    margin-top: 3%;
-    margin-left: 5%;
+    margin: 3% auto;
     display: block;
   }
   #title {
