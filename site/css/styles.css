@@ -151,7 +151,7 @@ em {
 }
 
 /* Extra small devices (phones, 600px and down) */
-@media (max-width: 576px) {
+@media (max-width: 400px) {
   #img-iphone {
     /* z-index: -1; */
     transform: rotate(0deg);
