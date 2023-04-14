@@ -4,8 +4,6 @@
   line-height: 1.5;
   size: 3rem;
   color: white;
-  display: block;
-  padding-bottom: 19%;
 }
 
 .container-fluid {
@@ -15,11 +13,8 @@
 }
 #img-iphone {
   /* z-index: -1; */
-  transform: rotate(30deg);
-  width: 20%;
-  position: absolute;
-  margin-top: 3%;
-  margin-left: 5%;
+  transform: rotate(35deg);
+  width: 50%;
 }
 
 .navbar {
@@ -43,11 +38,7 @@
 }
 
 #features {
-  /* display: block; */
   padding: 7% 15%;
-  z-index: 1;
-  background-color: #fff;
-  position: relative;
 }
 
 h3 {
@@ -84,8 +75,6 @@ p {
   font-size: 1rem;
   text-align: center;
   color: white;
-  position: relative;
-  /* display: block; */
 }
 
 .img-press {
