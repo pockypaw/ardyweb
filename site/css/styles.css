@@ -43,7 +43,7 @@
 }
 
 #features {
-  display: block;
+  /* display: block; */
   padding: 7% 15%;
   z-index: 1;
   background-color: #fff;
@@ -85,6 +85,7 @@ p {
   text-align: center;
   color: white;
   position: relative;
+  /* display: block; */
 }
 
 .img-press {
