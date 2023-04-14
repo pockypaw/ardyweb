@@ -1,3 +1,4 @@
+
 #title {
   background-color: #ff4c68;
   font-family: "Montserrat-Black", sans-serif;
@@ -141,10 +142,32 @@ em {
   margin: 2% auto;
 }
 
-.footer{
+.footer {
   background-color: #ff4c68;
   text-align: center;
   color: white;
   margin: auto 0;
   height: 5%;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media (max-width: 576px) {
+  #img-iphone {
+    /* z-index: -1; */
+    transform: rotate(0deg);
+    width: 40%;
+    /* position: absolute; */
+    margin-top: 3%;
+    margin-left: 5%;
+    display: block;
+  }
+  #title {
+    background-color: #ff4c68;
+    font-family: "Montserrat-Black", sans-serif;
+    line-height: 1.5;
+    size: 3rem;
+    color: white;
+    display: block;
+    padding-bottom: 85%;
+  }
 }
