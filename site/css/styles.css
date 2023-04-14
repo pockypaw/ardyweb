@@ -12,7 +12,7 @@
   padding-right: 15%;
 }
 #img-iphone {
-  /* z-index: -1; */
+  z-index: -1;
   transform: rotate(35deg);
   width: 50%;
 }
@@ -123,17 +123,4 @@ em {
 .hover-pink:hover {
   border-color: #ff4c68;
   background-color: rgb(255, 40, 76);
-}
-
-#cta {
-  text-align: center;
-  margin: 2% auto;
-}
-
-.footer{
-  background-color: #ff4c68;
-  text-align: center;
-  color: white;
-  margin: auto 0;
-  height: 5%;
 }
