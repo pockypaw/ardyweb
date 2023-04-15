@@ -40,7 +40,7 @@
 }
 
 .download-button {
-  margin: 5% 3% 5% 0;
+  margin: 2% auto;
 }
 
 #features {
@@ -137,17 +137,23 @@ em {
   background-color: rgb(255, 40, 76);
 }
 
-#cta {
+ #cta {
   text-align: center;
-  margin: 2% auto;
+  margin: 1% auto;
+  background-color: #ff4c68;
+  font-family: "Montserrat-Black";
+  font-size: 3rem;
+  color: white !important;
+  letter-spacing: 2px;
+  padding: 1%;
 }
 
 .footer {
-  background-color: #ff4c68;
+  background-color: #fff;
   text-align: center;
-  color: white;
+  color: black;
   margin: auto 0;
-  height: 5%;
+ 
 }
 
 /* Extra small devices (phones, 600px and down) */
